@@ -4,20 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "node src/bot.js",
     "start": "node dist/bot.js",
-    "dev": "nodemon -e ts --exec \"npm run build && npm start\""
+    "dev": "nodemon -e js --exec \"npm run build\""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^11.5.1",
+    "discord.js": "^13.1.0",
     "giphy-js-sdk-core": "^1.0.6"
   },
   "devDependencies": {
     "@types/node": "^13.5.0",
-    "dotenv": "^8.2.0",
+    "dotenv": "^8.6.0",
     "nodemon": "^2.0.12",
     "typescript": "^3.7.5"
   }
