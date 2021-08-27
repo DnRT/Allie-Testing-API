@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc index.ts",
     "start": "node index.js",
-    "dev": "nodemon -e ts --exec \"npm run build && npm run start\""
+    "dev": "nodemon -e js --exec \"npm run start\""
   },
   "repository": {
     "type": "git",
@@ -19,6 +18,8 @@
   },
   "homepage": "https://github.com/DnRT/Allie-Testing-API#readme",
   "dependencies": {
+    "@octokit/rest": "^18.9.1",
+    "github-api": "^3.4.0",
     "nodemon": "^2.0.12",
     "typescript": "^4.3.5"
   }
