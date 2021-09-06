@@ -1,16 +1,16 @@
 {
-  "name": "calendar",
+  "name": "calendarapi",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon -e js --exec \"npm run start\""
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Eugenio Cortés",
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "googleapis": "^84.0.0",
-    "nodemon": "^2.0.12"
+    "dotenv": "^10.0.0",
+    "googleapis": "^85.0.0"
   }
 }
